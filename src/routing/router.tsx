@@ -14,6 +14,7 @@ import AddPetPage from "@/pages/AddPetPage/AddPetPage";
 import NotFoundPage from "@/pages/NotFoundPage/NotFoundPage";
 
 import PrivateRoute from "./PrivateRoute";
+import RestrictedRoute from "./RestrictedRoute";
 
 export const router = createBrowserRouter([
 	{
@@ -32,8 +33,13 @@ export const router = createBrowserRouter([
 					{ path: routes.PROFILE, element: <ProfilePage /> },
 				],
 			},
-			{ path: routes.REGISTER, element: <RegisterPage /> },
-			{ path: routes.LOGIN, element: <LoginPage /> },
+			{
+				element: <RestrictedRoute />,
+				children: [
+					{ path: routes.REGISTER, element: <RegisterPage /> },
+					{ path: routes.LOGIN, element: <LoginPage /> },
+				],
+			},
 			{ path: routes.NOT_FOUND, element: <NotFoundPage /> },
 		],
 	},
