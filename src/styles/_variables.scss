@@ -1,0 +1,48 @@
+// Font sizes
+$fs-10: 0.625rem;
+$fs-12: 0.75rem;
+$fs-14: 0.875rem;
+$fs-16: 1rem;
+$fs-18: 1.125rem;
+$fs-20: 1.25rem;
+$fs-24: 1.5rem;
+$fs-32: 2rem;
+$fs-54: 3.375rem;
+$fs-90: 5.625rem;
+$fs-300: 18.75rem;
+
+// Font weights
+$medium-fw: 500;
+$semi-bold-fw: 600;
+$bold-fw: 700;
+$extra-bold-fw: 800;
+
+// Brand colors
+$accent-color: #f6b83d;
+$accent-secondary-color: #ffc531;
+$accent-light-color: #fff4df;
+$accent-transparent-color: rgba($accent-color, 0.2);
+
+// Text colors
+$text-primary-color: #262626;
+$text-secondary-color: rgba(#262626, 0.5);
+$text-tertiary-color: rgba(#262626, 0.15);
+
+// Background colors
+$white-color: #fff;
+$bg-light-color: #f9f9f9;
+$bg-dark-color: #2b2b2a;
+
+// Border colors
+$border-color: rgba($text-primary-color, 0.15);
+$border-light-color: rgba($text-primary-color, 0.05);
+
+// UI colors
+$error-color: #ef2447;
+$success-color: #08aa83;
+$female-gender-color: #f43f5e;
+$male-gender-color: #54adff;
+
+// Overlay
+$overlay-color: rgba($white-color, 0.1);
+$overlay-dark-color: rgba($bg-dark-color, 0.8);
