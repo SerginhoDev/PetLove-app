@@ -1,2 +1,7 @@
 @use "reset";
 @use "variables";
+@use "fonts";
+
+body {
+	font-family: $manrope-ff;
+}
