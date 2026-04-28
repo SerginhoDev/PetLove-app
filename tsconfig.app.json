@@ -14,7 +14,8 @@
 			"@assets/*": ["./src/assets/*"],
 			"@components/*": ["./src/components/*"],
 			"@shared/*": ["./src/components/shared/*"],
-			"@pages/*": ["./src/pages/*"]
+			"@pages/*": ["./src/pages/*"],
+			"@styles/*": ["./src/styles/*"]
 		},
 
 		/* Bundler mode */
